@@ -2,12 +2,11 @@ const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const inquirer = require("inquirer");
-const path = require("path");
 const fs = require("fs");
-const outputPath = path.resolve(__dirname, "output", "team.html");
-const render = require("./lib/htmlRenderer");
 const teamMembers = [];
 const idArray = [];
+
+
 function appMenu() {
   function createManager() {
     console.log("Please build your team");
@@ -256,6 +255,7 @@ function appMenu() {
                         <div class="card-subtitle styledposition">${member.getRole()}</div>
                         <div>ID: ${member.getId()}</div>
                         <div>Email: <a href="mailto:${member.getEmail()}">${member.getEmail()}</a></div>
+                        <div>Office Number: ${member.getOfficeNumber()}</div>
                         </div>
                         </div>`;
      headHtml += memberDiv;
@@ -291,7 +291,7 @@ function appMenu() {
       </body>
       </html>`;
     htmlString = headHtml + footerHtml;
-    fs.writeFileSync('team.html', htmlString, "utf-8");
+    fs.writeFileSync('./outputs/team.html', htmlString, "utf-8");
   }
   createManager();
 }
