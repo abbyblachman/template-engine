@@ -291,7 +291,7 @@ function appMenu() {
       </body>
       </html>`;
     htmlString = headHtml + footerHtml;
-    fs.writeFileSync('./outputs/team.html', htmlString, "utf-8");
+    fs.writeFileSync('./outputs/index.html', htmlString, "utf-8");
   }
   createManager();
 }
