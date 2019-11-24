@@ -234,7 +234,7 @@ function appMenu() {
       <title>My Team</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="./outputs/main.css">
+      <link rel="stylesheet" href="./Develop/outputs/main.css">
       <link href="https://fonts.googleapis.com/css?family=Calistoga|Roboto&display=swap" rel="stylesheet">
       </head>
       <body>
@@ -291,7 +291,7 @@ function appMenu() {
       </body>
       </html>`;
     htmlString = headHtml + footerHtml;
-    fs.writeFileSync('./outputs/index.html', htmlString, "utf-8");
+    fs.writeFileSync('index.html', htmlString, "utf-8");
   }
   createManager();
 }
