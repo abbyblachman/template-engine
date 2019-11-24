@@ -1,0 +1,64 @@
+a {
+    color: #D3D2D3;
+}
+
+.centerrow {
+    justify-content: center;
+}
+
+.styleddescrip {
+    color: black; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.styledcardintern {
+    background-color: #718871;
+    font-size: 1rem;
+    color: white;
+    margin: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.styledcardengineer {
+    background-color: #717C88;
+    font-size: 1rem;
+    color: white;
+    margin: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.styledcardmanager {
+    background-color: #887188;
+    font-size: 1rem;
+    color: white;
+    margin: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.styledheader {
+    font-family: 'Calistoga', cursive;
+    font-weight: bold; 
+    font-size: 4rem;
+    color: black;
+    margin: 3rem;
+    text-align: center;
+}
+
+.styledposition {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.styledtitle {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+}
+
+.titlecard {
+    margin: 3rem;
+}
