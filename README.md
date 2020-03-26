@@ -8,6 +8,8 @@ This application was built in a test-driven development environment, and passes 
 
 The project uses classes based on the employee's role, and each of the classes have a corresponding test written. 
 
+### Cloning the application
+
 ### How to use this application
 
 First, make sure `node` is installed on your machine. 
