@@ -10,6 +10,8 @@ The project uses classes based on the employee's role, and each of the classes h
 
 ### Cloning the application
 
+Copy the url above. 
+
 ### How to use this application
 
 First, make sure `node` is installed on your machine. 
