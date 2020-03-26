@@ -12,6 +12,10 @@ The project uses classes based on the employee's role, and each of the classes h
 
 Copy the url above. Open your terminal, and run: 
 
+```
+git clone <url>
+```
+
 ### How to use this application
 
 First, make sure `node` is installed on your machine. 
