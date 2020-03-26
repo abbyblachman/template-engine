@@ -10,7 +10,7 @@ The project uses classes based on the employee's role, and each of the classes h
 
 ### Cloning the application
 
-Copy the url above. 
+Copy the url above. Open your terminal, and run: 
 
 ### How to use this application
 
