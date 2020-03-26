@@ -1,4 +1,4 @@
-# template-engine
+# Template-Engine
 
 This application is a Node command line interface application. 
 
